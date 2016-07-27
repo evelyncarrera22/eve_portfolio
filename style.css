@@ -103,5 +103,10 @@ input[type=search]{
  .h3, h3{
  	display: none;
  }
-
+/*changes the porfolio css*/
+ .hackathon-image{
+ 	float: right;
+ 	border-style:inset;
+ 	border-color:maroon;
+ }
 
