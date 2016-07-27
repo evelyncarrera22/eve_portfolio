@@ -1,0 +1,62 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+/* This Changes The Background of the nav bar*/
+.site-navigation{
+	background: #00796B;
+}
+
+/*this changes the navbar background color and adds a border with a marron color */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background-color: #FF4081;
+	border-style: inset;
+	border-color: maroon;
+}
+
+/*changes the color of the navbar tet to white*/
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+/*changes the rest of the navbar color text to white*/
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+/*changes the back ground of the header*/
+.site-header-inner{
+	background-color: #009688;
+	color:white;
+}
+/*changes the links to black*/
+a{
+	color:black;
+}
+/*changes the title of the page to black*/
+.page-tittle{
+	color:black;
+}
+/*when click on the navbae it will change he background to white and keep the text color black*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: white;
+}
+/*when hovered over the navbar it will hover with a darker shade of pink with black text*/
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	background-color: #e53974;
+	color: black;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	background-color: #e53974;
+	color: black;
+}
+
