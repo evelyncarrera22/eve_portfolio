@@ -15,6 +15,9 @@
 /* This Changes The Background of the nav bar*/
 .site-navigation{
 	background: #00796B;
+	border-style: solid;
+    border-width:2ppx;
+    border-color: #00796B;
 }
 
 /*this changes the navbar background color and adds a border with a marron color */
