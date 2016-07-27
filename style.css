@@ -82,7 +82,11 @@ display: none;
 input[type=search]{
 	display: none;
 }
-
+/* changeed the size in the jumbotron*/
+.container .jumbotron, .container-fluid .jumbotron{
+	height: 300px;
+    width: 50%;
+}
 
 
 
