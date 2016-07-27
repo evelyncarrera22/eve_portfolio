@@ -87,11 +87,17 @@ input[type=search]{
 	height: 300px;
     width: 50%;
 }
+/* when on the button changes the background color*/
+.btn-group-lg>.btn, .btn-lg{
+	background-color: #FF4081;
+}
+/* when hovered over the button will be the pibnkish color*/
+.btn-primary:hover{
+	background-color: #FF4081;
+}
+/* changed the background color of the jumbotron*/
+.container .jumbotron, .container-fluid .jumbotron{
+	background-color:#B2DFDB;
+}
 
-
-
-
-
-
-
-
+ 
