@@ -63,13 +63,28 @@ a{
 	background-color: #e53974;
 	color: black;
 }
+/*this changes the font for the body*/
 body{
 	font-family: Arimo;
 }
-
+/* the font font that changes i the header*/
 header{
 	font-family: Didact Gothic;
 }
+/* doesn't display "evelyn;s portfolio "*/
 .lead{
 display: none;
 }
+/* makes the search bar disappear doesnt appear anymore*/
+input[type=search]{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
