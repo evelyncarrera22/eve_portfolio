@@ -11,6 +11,7 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
 */
+
 /* This Changes The Background of the nav bar*/
 .site-navigation{
 	background: #00796B;
@@ -54,9 +55,15 @@ a{
 	background-color: #e53974;
 	color: black;
 }
-
+/* changes the color when hover*/
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
 	background-color: #e53974;
 	color: black;
 }
+body{
+	font-family: Arimo;
+}
 
+header{
+	font-family: Didact Gothic;
+}
