@@ -99,7 +99,9 @@ input[type=search]{
 .container .jumbotron, .container-fluid .jumbotron{
 	background-color:#B2DFDB;
 }
-
+/*this makes the header 3 disappear from the page*/
  .h3, h3{
  	display: none;
  }
+
+
