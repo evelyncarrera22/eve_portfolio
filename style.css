@@ -76,7 +76,7 @@ header{
 }
 /* doesn't display "evelyn;s portfolio "*/
 .lead{
-display: none;
+
 }
 /* makes the search bar disappear doesnt appear anymore*/
 input[type=search]{
@@ -109,4 +109,8 @@ input[type=search]{
  	border-style:inset;
  	border-color:maroon;
  }
-
+.porfolio-image{
+	float: left;
+ 	border-style:inset;
+ 	border-color:maroon;
+}
