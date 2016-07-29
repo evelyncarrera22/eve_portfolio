@@ -76,7 +76,7 @@ header{
 }
 /* doesn't display "evelyn;s portfolio "*/
 .lead{
-
+	display: none;
 }
 /* makes the search bar disappear doesnt appear anymore*/
 input[type=search]{
@@ -103,14 +103,15 @@ input[type=search]{
  .h3, h3{
  	display: none;
  }
-/*changes the porfolio css*/
- .hackathon-image{
- 	float: right;
- 	border-style:inset;
- 	border-color:maroon;
- }
-.porfolio-image{
-	float: left;
- 	border-style:inset;
- 	border-color:maroon;
+/*this is for the week tittle for each blig entry*/
+.b, strong{
+	border-style: inset;
+	border-color: maroon;
+	background-color: teal;
+	color:white;
+}
+/*changes the back ground color to the end button to teal*/
+button, html input[type=button], input[type=reset], input[type=submit]{
+	background-color: teal;
+	color:white;
 }
