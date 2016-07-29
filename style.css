@@ -23,8 +23,8 @@
 /*this changes the navbar background color and adds a border with a marron color */
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	background-color: #FF4081;
-	border-style: inset;
-	border-color: maroon;
+	border-style: none;
+	border-color: none;
 }
 
 /*changes the color of the navbar tet to white*/
