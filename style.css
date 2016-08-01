@@ -110,8 +110,8 @@ input[type=search]{
 	background-color: teal;
 	color:white;
 }
-/*changes the back ground color to the end button to teal*/
+/*changes the back ground color to the end button to a shade of pink*/
 button, html input[type=button], input[type=reset], input[type=submit]{
-	background-color: teal;
+	background-color: #FF4081;
 	color:white;
 }
