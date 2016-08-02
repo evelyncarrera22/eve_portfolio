@@ -59,7 +59,7 @@ a{
 /*when hovered over the navbar it will hover with a darker shade of pink with black text*/
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
 	background-color: #e53974;
-	color: black;
+	color: white;
 }
 /* changes the color when hover*/
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
@@ -114,4 +114,7 @@ input[type=search]{
 button, html input[type=button], input[type=reset], input[type=submit]{
 	background-color: #FF4081;
 	color:white;
+}
+.work{
+	color:black;
 }
