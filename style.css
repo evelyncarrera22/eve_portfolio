@@ -118,3 +118,10 @@ button, html input[type=button], input[type=reset], input[type=submit]{
 .work{
 	color:black;
 }
+/* social icons adding padding*/
+.simple-social-icons ul{
+	position: bottom-left;
+}
+
+
+
